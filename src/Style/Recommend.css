@@ -1,0 +1,27 @@
+.title-recommend {
+    text-align: left;
+    font: normal normal 600 14px/18px Open Sans;
+    letter-spacing: 0px;
+    color: #000000DE;
+    opacity: 1;
+    margin-bottom: 4px;
+}
+.content-recommend {
+    text-align: left;
+    font: normal normal normal 14px/18px Open Sans;
+    letter-spacing: 0px;
+    color: #000000DE;
+    opacity: 1;
+}
+.recommend img {
+    padding: 20.5px;
+    background-color: #F2F2F2 ;
+    float: left;
+    margin-left: 16px;
+    margin-right: 13px;
+}
+.recommend div {
+    overflow: hidden;
+    padding: 16px 0;
+    border-bottom: 1px solid #E4E4E4;
+}

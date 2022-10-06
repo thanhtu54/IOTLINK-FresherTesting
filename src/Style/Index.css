@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    background: #E1E1E1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+}
+.sidebar {
+    max-width: 420px;
+    display: block;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 2px #00000029;
+    opacity: 1;
+    padding-top: 6px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.background {
+    width: 408px;
+    height: 240px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0 auto;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.title {
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 14px;
+}
+.content {
+    width: 406px;
+    margin: 0 auto;
+    border-left: 1px solid #E4E4E4;
+    border-right: 1px solid #E4E4E4;
+    padding-top: 14px;
+    opacity: 1;
+}
+.sidebar-button {
+    width: 20px;
+    height: 48px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 2px #00000029;
+    border-radius: 4px;
+    opacity: 1;
+    margin-top: 6px;
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sidebar-button i {
+    width: 13px;
+    height: 24px;
+    opacity: 1;
+    color: #00000061;
+    margin-left: -2px;
+    margin-top: 4px;
+}
+.icon-avatar {
+    width: 100%;
+}
+.icon-avatar span {
+    width: 24px;
+    height: 19px;
+    padding: 8.5px 6px;
+    background: #508FF4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: left;
+    font: normal normal 600 14px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border-radius: 18px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+#box {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    display: none;
+    position: absolute;
+    transition: 0.1s ease-out;
+    overflow: hidden;
+}

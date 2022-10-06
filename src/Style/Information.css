@@ -1,0 +1,61 @@
+#address {
+    text-align: left;
+    font: normal normal normal 14px/18px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000DD;
+    opacity: 1;
+}
+.date-start {
+    text-align: left;
+    font: normal normal 600 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #000000DD;
+    margin-right: 12px;
+}
+.date {
+    text-align: left;
+    font: normal normal normal 14px/19px Open Sans;
+    letter-spacing: 0px;
+    color: #141414;
+}
+.list-information {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.list-information:first-child {
+    margin-bottom: 21px;
+}
+.list-information img {
+    margin-left: 16px;
+    margin-right: 24px;
+    width: 24px;
+    height: 24px;
+}
+.edit {
+    width: 158px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    border-radius: 18px;
+    opacity: 1;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+}
+.edit img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.edit span {
+    text-align: left;
+    font: normal normal normal 14px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000DE;
+    opacity: 1;
+}
+.information {
+    padding: 16px 0px;
+    border-bottom: 1px solid #E4E4E4;
+}

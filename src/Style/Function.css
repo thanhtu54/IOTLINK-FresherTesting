@@ -1,0 +1,59 @@
+#name-position {
+    text-align: left;
+    font: normal normal 600 22px/30px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000DE;
+    opacity: 1;
+    margin-left: 16px;
+    display: block;
+    margin-bottom: 4px;
+}
+#category {
+    text-align: left;
+    font: normal normal normal 14px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #0000008A;
+    opacity: 1;
+    margin-left: 16px;
+}
+.function {
+    width: 408px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    border-bottom: 1px solid #E4E4E4;
+    box-sizing: border-box;
+}
+.icon-function {
+    text-align: left;
+    font: normal normal normal 14px/19px Segoe UI;
+    letter-spacing: 0px;
+    color: #508FF4;
+    opacity: 1;
+}
+.wrapper {
+    width: 34px;
+    height: 34px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #508FF4;
+    border-radius: 18px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+.wrapper img {
+    width: 18px;
+    height: 18px;
+}
+.group-function {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.group-function:first-child div {
+    background-color: #508FF4;
+    border: none;
+}
